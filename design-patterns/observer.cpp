@@ -25,8 +25,6 @@ public:
     }
 };
 
-
-
 class Publisher1 : public Publisher {
     vector<weak_ptr<Subscriber>> subscribers;
     public:
